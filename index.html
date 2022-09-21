@@ -7,14 +7,14 @@
     <title>Meu Portfólio</title>
     <link rel="shortcur icon" href="img/avatar.jpg">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- cabeçalho -->
-    <header>
+    <header class="header-menu">
         <!-- barra de navegação -->
-        <nav>
-            <ul> <!-- lista não ordenada -->
+        <nav class="lista-nav">
+            <ul class="lista-menu"> <!-- lista não ordenada -->
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
@@ -29,36 +29,49 @@
     </header>
     <!-- corpo -->
     <main>
-        <section>
+        <section class="principal">
+            <div class="sub-principal container">
             <div>
                 <img src="img/foto-perfil.jpg" alt="">
             </div>
-            <div>
-                <h1>Joyce Kelly</h1>
-                <h2>Desenvolvedora Full stack</h2>
+
+                <div>
+                    <h1 class="nome-titulo">Joyce Kelly</h1>
+                        <h2 class="nome-profissao">Desenvolvedora Full stack</h2>
+                         </div>
+
+            <div class="texto-sobre">
+            <p>
+             Estudante de Ciência da Computação, tenho me dedicado a tecnologia e desenvolvimento de software nos últimos meses. Estou me especializando em programação, mais precisamente em Java,  pela instituição Fuctura. Possuo conhecimentos em Java OO, JPA, JDBC, Hibernate, Oracle Database, MySQL, Git/Github (Versionamento de código), Javascript.<br>
+             Perfil organizado e criativo, analítica para resolução de problemas e tomada de decisões facilidade de comunicação e alta capacidade de aprendizagem. Sou motivada por aprendizado contínuo, pelas coisas e pessoas que eu amo e onde eu quero chegar. Tenho facilidade de trabalhar em equipe.
+             </p>
+                </div>
+
             </div>
-            <div>
-                Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown ...
-            </div>
-        </section id="formacao">
+             </section>
+
+        <section id="formacao">
+            <div class="container section-lista">
         <div>
-            Formação
+           <h3 class="topico-principal">Formação</h3> 
         </div>
         <div>
-            <ul>
+            <ul class="lista-item">
                 <li>
-                    <p>Ciclo formativo Basico</p>
-                    <a href="https://www.pretalab.com/" target="_blank"> Pretalab</a>
+                    <p class="lista-titulo">Ciclo formativo Basico</p>
+                    <a href="https://www.pretalab.com/" target="_blank" class="lista-local"> Pretalab</a>
                     <p>
                         Somos uma plataforma que conecta mulheres negras que são ou gostariam de ser da tecnologia, por meio dos nossos ciclos formativos, rede de profissionais, mercado de trabalho, consultorias e estudos.
                     </p>
                 </li>
                 <li>
-                    <p>Ensino superior</p>
-                    <a href="https://descomplica.com.br/faculdade/" target="_blank"> Descomplica Faculdade</a>
+                    <p class="lista-titulo">Ensino superior</p>
+                    <a href="https://descomplica.com.br/faculdade/" target="_blank" class="lista-local"> Descomplica Faculdade</a>
                 </li>
             </ul>
         </div>
+    </div>
+        </section>
         <section id="projetos">
             <div>
                 Meus projetos
