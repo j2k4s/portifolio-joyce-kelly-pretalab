@@ -109,4 +109,25 @@ li{
 
 .lista-local{
     font-size: 18px;
+    color: #661e4b;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #661e4b;
+    font-weight: 300;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+
+
+}
+
+.portifolio{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
