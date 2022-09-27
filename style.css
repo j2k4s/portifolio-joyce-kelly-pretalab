@@ -131,3 +131,19 @@ li{
     display: flex;
     flex-direction: column;
 }
+
+.footer {
+    background-color: darkgray;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.lista-contatos {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
